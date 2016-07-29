@@ -1,0 +1,104 @@
+
+body {
+	background: url(images/23.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 980px; margin:0 auto;    }
+
+
+.ujinga{padding-left: 298px;}
+a:link, a:visited, a:hover, a:active {
+	color: #365D89;
+	text-decoration: underline;
+}
+.color { font color:white}
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color:white;
+	text-align: left;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+a img {
+	border: none;
+}
+h1 {
+	color: #FFF;
+	font-family:"Comic Sans MS", cursive;
+	font-size: 18px;
+	padding-left: 15px;
+	line-height: 24px;
+}
+h2 {
+	color: #FFF;
+	font-family:"Comic Sans MS", cursive;
+	font-size: 14px;
+	padding-left: 15px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: -10px;
+}
+#Content ol li              { display: block}
+#social-media-icons	 		{float: right;  }
+#social-media-icons ul li   {display: inline;}
+#social-media-icons ul		{margin-top: 40px; }
+
+#topnav				 {clear: both;border-top:thick;  }
+#topnav				{font-family:inherit;}
+#topnav ul			{ border-top: 1px #000 solid; border-bottom: 1px #000 solid;
+	                   margin: 20px 0; padding: 10px 0;}
+#topnav ul li 		{ display:inline; }
+#topnav ul li a		{ padding: 0 30px;font-family:Tahoma, Geneva, sans-serif;padding: 0 20px;
+	 font-size:13px;
+	  line-height: 10px;
+	 font-weight: bold;
+	text-align: center;
+	 width: 750px;
+	 margin-top: 1px;
+	margin-right: auto;
+	margin-bottom: 2px;
+	margin-left: auto; border-bottom: 1px #FFF solid
+margin: 10px 10px; padding: 20px 5px; color:="grey"; }}
+
+
+#topnav a:link			{ color: #FFF; }
+#topnav a:visited		{ color: #FFF; }
+#outer                   {background-color:#000000}
+#topnav a:active		{ color:="grey"; }
+#topnav a:focus			{ color:#06C; }
+#topnav a:hover			{ color:#0F0; }
+#nav div                     {clear: both; border-top: 2px #FFF solid; border-bottom: 1px #FFF solid;  display: inline;}
+#logo                   {{margin: 5px 0px; float: left   }
+#topnav
+}
+#content			 { width: 650px; float: left;  }
+
+#rightside			      { width: 200px; float: right;}
+#rightside_artist			 {
+	                     width: 500px; float: right;
+											 font-family: sans-serif;
+											 font-size: 15;
+											 color: white;
+
+        }
+
+#footer				 { clear: both; margin:10px 0; border-top: 1px #ccc solid; padding-bottom: 10px;text-align:center;  }
+
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+.copyright {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 26px;
+	font-weight: normal;
+	color: #2C4B70;
+	text-align: center;
+}
